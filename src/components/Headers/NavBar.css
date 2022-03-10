@@ -1,0 +1,28 @@
+.navBar_cont {
+  display: flex;
+  /* text-decoration: none; */
+  margin: auto;
+  margin-top: 10px;
+  /* border: 2px solid red; */
+  width: 97%;
+  height: 40px;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+
+  /* position: fixed; */
+  background-color: #0a66c2;
+  font-size: 20px;
+}
+
+.logo {
+  width: 160%;
+  height: 140%;
+  /* border: 2px solid red; */
+}
+
+.links {
+  text-decoration: none;
+  color: aliceblue;
+  /* border: 2px solid green; */
+}

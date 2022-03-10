@@ -1,0 +1,29 @@
+.shops_cont {
+  margin: auto;
+
+  width: 96%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 2px solid red; */
+}
+
+.button_cont {
+  display: flex;
+}
+
+.rating_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.heading_shops {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
