@@ -112,7 +112,7 @@ export const HomePage = () => {
       <div className="shops_cont" style={{ display: "grid", gap: "100px" }}>
         {itemData.map((item) => {
           return (
-            <Card sx={{ maxWidth: 345 }}>
+            <Card key={item.id} sx={{ maxWidth: 345 }}>
               <CardMedia
                 component="img"
                 height="140"
